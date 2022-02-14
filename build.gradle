@@ -20,7 +20,7 @@ task clean(type: Delete) {
 
 ext{
     // App version
-    version_name = '1.0.1'
+    version_name = '1.0.2'
     version_code = 10001
     // SDK and tools
     compile_sdk_version = 32
