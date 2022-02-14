@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ /**
+  ~  * Created by SOURAV VERMA on 07/02/22, 1:10 PM
+  ~  * Copyright (c) 2022 . All rights reserved.
+  ~  * Last modified 07/02/22, 2:10 AM
+  ~  */
+  -->
+
+<resources>
+    <color name="show_more">#FF0000</color>
+    <color name="show_less">#FF0000</color>
+</resources>

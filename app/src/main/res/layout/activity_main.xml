@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ /**
+  ~  * Created by SOURAV VERMA on 07/02/22, 1:10 PM
+  ~  * Copyright (c) 2022 . All rights reserved.
+  ~  * Last modified 07/02/22, 12:57 PM
+  ~  */
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <com.verma.android.widgets.text.showmore.ShowMoreTextView
+        android:id="@+id/readMoreTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="@string/more_text"
+        android:textSize="16sp"
+        tools:text="@string/more_text" />
+
+    <com.verma.android.widgets.text.showmore.ShowMoreTextView
+        android:id="@+id/show_more_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="@string/more_text"
+        android:textSize="20sp"
+        app:show_less_color="#FF0000"
+        app:show_less_text="@string/show_less"
+        app:show_more_animation="true"
+        app:show_more_bold="true"
+        app:show_more_collapse_click="true"
+        app:show_more_color="@android:color/holo_blue_bright"
+        app:show_more_expand_click="true"
+        app:show_more_linkify="true"
+        app:show_more_max_line="300"
+        app:show_more_text="@string/show_more"
+        app:show_more_text_length_type="TYPE_CHARACTER"
+        app:show_more_underline="true"
+        tools:text="@string/more_text" />
+
+
+</LinearLayout>

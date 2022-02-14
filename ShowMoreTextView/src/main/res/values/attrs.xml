@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ /**
+  ~  * Created by SOURAV VERMA on 07/02/22, 1:10 PM
+  ~  * Copyright (c) 2022 . All rights reserved.
+  ~  * Last modified 07/02/22, 1:39 AM
+  ~  */
+  -->
+
+<resources>
+
+
+    <declare-styleable name="ShowMoreTextView">
+        <attr name="show_more_text" format="string|reference" />
+        <attr name="show_less_text" format="string|reference" />
+        <attr name="show_more_color" format="color|reference" />
+        <attr name="show_less_color" format="color|reference" />
+        <attr name="show_more_underline" format="boolean" />
+        <attr name="show_more_bold" format="boolean" />
+        <attr name="show_more_animation" format="boolean" />
+        <attr name="show_more_expand_click" format="boolean" />
+        <attr name="show_more_collapse_click" format="boolean" />
+        <attr name="show_more_linkify" format="boolean" />
+
+        <attr name="show_more_max_line" format="integer" />
+        <attr name="show_more_text_length_type">
+            <enum name="TYPE_LINE" value="1" />
+            <enum name="TYPE_CHARACTER" value="2" />
+        </attr>
+
+    </declare-styleable>
+
+</resources>

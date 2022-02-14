@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ShowMoreTextView</string>
+    <string name="more_text">Let us first acknowledge that if the text that precedes the link makes it obvious what’s to come, then a Learn More label isn’t devastating to the user experience. Remember, this article is about how to do better. Descriptive text does help clarify and set expectations. However, even in that situation, there is often ambiguity about the scope of the link. Does the link go to a full page dedicated to the topic? Or does it lead to a landing page where the user will have to choose from a dozen other links? Does it point to an external site or an app store? These are all questions that an informative link label can help answer.</string>
+</resources>

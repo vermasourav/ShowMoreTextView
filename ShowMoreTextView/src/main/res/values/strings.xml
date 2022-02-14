@@ -1,0 +1,17 @@
+<!--
+  ~ /**
+  ~  * Created by SOURAV VERMA on 07/02/22, 1:10 PM
+  ~  * Copyright (c) 2022 . All rights reserved.
+  ~  * Last modified 07/02/22, 12:26 PM
+  ~  */
+  -->
+
+<resources>
+    <string name="app_name">ShowMoreTextView</string>
+    <string name="show_more">show more</string>
+    <string name="show_less">show less</string>
+    <string name="show_more_h">→ show more</string>
+    <string name="show_less_h">← less</string>
+    <string name="show_more_v">↓ show more</string>
+    <string name="show_less_v">↑ less</string>
+</resources>
