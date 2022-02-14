@@ -68,7 +68,7 @@ dependencies {
 
     implementation fileTree(dir: 'libs', include: ['*.aar'])
     implementation project(':ShowMoreTextView')
-    //implementation 'com.github.vermasourav:ShowMoreTextView:1.0.1'
+    //implementation 'com.github.vermasourav:ShowMoreTextView:v1.0.1'
     //implementation files('./libs/ShowMoreTextView.aar')
 
 }

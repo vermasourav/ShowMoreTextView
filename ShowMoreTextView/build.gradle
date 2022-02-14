@@ -7,19 +7,35 @@ android {
     compileSdk 32
 
     defaultConfig {
-        minSdk 21
-        targetSdk 32
+
+        minSdk rootProject.min_sdk_version
+        targetSdk rootProject.target_sdk_version
+        versionCode rootProject.version_code
+        versionName rootProject.version_name
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        consumerProguardFiles "consumer-rules.pro"
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
+        //setProperty("archivesBaseName", applicationId + "-v" + versionCode + "(" + versionName + ")")
+
     }
 
     buildTypes {
         release {
-            minifyEnabled false
+            proguardFile 'proguard-google-play-services.pro'
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            debuggable false
+            jniDebuggable false
+            renderscriptDebuggable false
+            zipAlignEnabled true
+            //signingConfig signingConfigs.KEY
+        }
+        debug {
+            debuggable true
         }
     }
+
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
