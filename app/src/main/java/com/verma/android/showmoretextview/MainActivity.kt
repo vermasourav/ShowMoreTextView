@@ -20,4 +20,5 @@ class MainActivity : AppCompatActivity() {
         binding.readMoreTextView.updateText(getString(R.string.more_text), false)
 
     }
+
 }
