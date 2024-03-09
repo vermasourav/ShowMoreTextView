@@ -1,9 +1,9 @@
-package com.verma.android.showmoretextview
+package com.verma.android.widgets.text.showmore
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import com.verma.android.showmoretextview.databinding.ActivityMainBinding
+import com.verma.android.widgets.text.showmore.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding

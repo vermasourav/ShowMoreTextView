@@ -9,9 +9,10 @@ plugins {
 
 android {
     compileSdk rootProject.compile_sdk_version
+    namespace 'com.verma.android.widgets.text.showmore'
 
     defaultConfig {
-        applicationId "com.verma.android.showmoretextview"
+        applicationId "com.verma.android.widgets.text.showmore"
         minSdk rootProject.min_sdk_version
         targetSdk rootProject.target_sdk_version
         versionCode rootProject.version_code

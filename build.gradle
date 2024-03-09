@@ -27,6 +27,4 @@ ext{
     target_sdk_version = 34
     min_sdk_version = 24
 
-    kotlin_version = "1.7.20"
-    gradle_version = '7.4'
 }
