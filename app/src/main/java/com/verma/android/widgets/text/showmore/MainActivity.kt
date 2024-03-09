@@ -3,7 +3,7 @@ package com.verma.android.widgets.text.showmore
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import com.verma.android.widgets.text.showmore.databinding.ActivityMainBinding
+import com.verma.android.widgets.text.showmore.sample.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
                 TAG, "onClicked:$state"
             )
         }
-        binding.readMoreTextView.updateText(getString(R.string.more_text), false)
+        binding.readMoreTextView.updateText(getString(R.string.show_more_h), false)
 
     }
 

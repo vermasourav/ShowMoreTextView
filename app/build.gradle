@@ -9,10 +9,10 @@ plugins {
 
 android {
     compileSdk rootProject.compile_sdk_version
-    namespace 'com.verma.android.widgets.text.showmore'
+    namespace 'com.verma.android.widgets.text.showmore.sample'
 
     defaultConfig {
-        applicationId "com.verma.android.widgets.text.showmore"
+        applicationId "com.verma.android.widgets.text.showmore.sample"
         minSdk rootProject.min_sdk_version
         targetSdk rootProject.target_sdk_version
         versionCode rootProject.version_code
@@ -26,7 +26,10 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled true
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
+           /* minifyEnabled true
             shrinkResources true
             proguardFile 'proguard-google-play-services.pro'
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
@@ -34,7 +37,7 @@ android {
             jniDebuggable false
             renderscriptDebuggable false
             zipAlignEnabled true
-            //signingConfig signingConfigs.KEY
+            //signingConfig signingConfigs.KEY*/
         }
         debug {
             debuggable true
