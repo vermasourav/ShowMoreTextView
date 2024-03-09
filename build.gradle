@@ -11,7 +11,7 @@
 plugins {
     id 'com.android.application' version '7.1.0' apply false
     id 'com.android.library' version '7.1.0' apply false
-    id 'org.jetbrains.kotlin.android' version '1.6.10' apply false
+    id 'org.jetbrains.kotlin.android' version '1.8.10' apply false
 }
 
 task clean(type: Delete) {
@@ -20,13 +20,13 @@ task clean(type: Delete) {
 
 ext{
     // App version
-    version_name = '1.0.2'
+    version_name = '1.0.3'
     version_code = 10001
     // SDK and tools
-    compile_sdk_version = 32
-    target_sdk_version = 32
+    compile_sdk_version = 34
+    target_sdk_version = 34
     min_sdk_version = 24
 
-    kotlin_version = "1.6.10"
+    kotlin_version = "1.7.20"
     gradle_version = '7.4'
 }
