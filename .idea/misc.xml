@@ -1,0 +1,17 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Development/_Project/AndroidStudioProjects/Github-Pub/ShowMoreTextView/app/src/main/res/layout/activity_main.xml" value="0.22685185185185186" />
+        <entry key="..\:/Development/_Project/AndroidStudioProjects/publish/ShowMoreTextView/ShowMoreTextView/src/main/res/drawable/ic_launcher_background.xml" value="0.1095" />
+        <entry key="..\:/Development/_Project/AndroidStudioProjects/publish/ShowMoreTextView/app/src/main/res/layout/activity_main.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" default="true" project-jdk-name="15" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

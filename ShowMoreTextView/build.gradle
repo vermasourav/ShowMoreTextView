@@ -5,6 +5,7 @@ plugins {
 
 android {
     compileSdk rootProject.compile_sdk_version
+    namespace 'com.verma.android.widgets.text.showmore'
 
     defaultConfig {
 
@@ -39,9 +40,6 @@ android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_11
         targetCompatibility JavaVersion.VERSION_11
-    }
-    kotlinOptions {
-        jvmTarget = '1.8'
     }
 }
 
