@@ -15,7 +15,7 @@ android {
         minSdk rootProject.min_sdk_version
         targetSdk rootProject.target_sdk_version
         versionCode rootProject.version_code
-        versionName "1.0.5"
+        versionName "1.0.7"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
@@ -48,7 +48,7 @@ android {
     }
 
     kotlinOptions {
-        jvmTarget = '1.8'
+        jvmTarget = '11'
     }
     buildFeatures {
         viewBinding true
@@ -68,7 +68,7 @@ dependencies {
 
     implementation fileTree(dir: 'libs', include: ['*.aar'])
     implementation project(':ShowMoreTextView')
-    //implementation 'com.github.vermasourav:ShowMoreTextView:1.0.3'
+    //implementation 'com.github.vermasourav:ShowMoreTextView:1.0.7'
     //implementation files('./libs/ShowMoreTextView.aar')
 
 }
