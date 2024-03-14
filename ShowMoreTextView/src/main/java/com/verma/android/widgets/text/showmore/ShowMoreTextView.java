@@ -16,7 +16,6 @@ import android.text.SpannableStringBuilder;
 import android.text.Spanned;
 import android.text.TextUtils;
 import android.text.method.LinkMovementMethod;
-import android.text.util.Linkify;
 import android.util.AttributeSet;
 import android.view.ViewGroup;
 
