@@ -11,11 +11,11 @@ android {
 
         minSdk rootProject.min_sdk_version
         targetSdk rootProject.target_sdk_version
-        versionCode rootProject.version_code
-        versionName rootProject.version_name
+        //versionCode rootProject.version_code
+        //versionName rootProject.version_name
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        multiDexEnabled true
+       // multiDexEnabled true
         vectorDrawables.useSupportLibrary = true
         //setProperty("archivesBaseName", applicationId + "-v" + versionCode + "(" + versionName + ")")
 
@@ -24,7 +24,7 @@ android {
     buildTypes {
         release {
             minifyEnabled false
-            proguardFile 'proguard-google-play-services.pro'
+            //proguardFile 'proguard-google-play-services.pro'
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             //signingConfig signingConfigs.KEY
         }
@@ -75,7 +75,7 @@ dependencies {
         include('ShowMoreTextView.aar')
     }
 
-    verma_addToProject.dependsOn(clean, verma_createArr)
-    verma_createArr.dependsOn(verma_deleteArr, build)
+   // verma_addToProject.dependsOn(clean, verma_createArr)
+    //verma_createArr.dependsOn(verma_deleteArr, build)
 
 }
