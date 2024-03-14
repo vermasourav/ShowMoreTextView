@@ -18,7 +18,7 @@ and In your Gradle dependencies add:
 
 ```
 dependencies {
-    implementation "com.github.vermasourav:ShowMoreTextView:-SNAPSHOT"
+    implementation "com.github.vermasourav:ShowMoreTextView:1.0.11"
 }
 ```
 # Define in xml:
