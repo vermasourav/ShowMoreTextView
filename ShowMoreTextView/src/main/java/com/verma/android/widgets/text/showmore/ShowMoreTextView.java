@@ -171,7 +171,8 @@ public final class ShowMoreTextView extends AppCompatTextView {
             setAnimation();
             setText(ss);
             if (builder.enableLinkify) {
-                Linkify.addLinks(this, Linkify.ALL);
+                //TODO Depricated
+                //Linkify.addLinks(this, Linkify.ALL);
             }
             setMovementMethod(LinkMovementMethod.getInstance());
         } catch (Exception e) {
@@ -225,7 +226,8 @@ public final class ShowMoreTextView extends AppCompatTextView {
             setAnimation();
             setText(ss);
             if (builder.enableLinkify) {
-                Linkify.addLinks(this, Linkify.ALL);
+                //TODO Depricated
+               // Linkify.addLinks(this, Linkify.ALL);
             }
             setMovementMethod(LinkMovementMethod.getInstance());
 
