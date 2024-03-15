@@ -15,8 +15,7 @@ android {
         //versionName rootProject.version_name
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-       // multiDexEnabled true
-        vectorDrawables.useSupportLibrary = true
+        consumerProguardFiles "consumer-rules.pro"
         //setProperty("archivesBaseName", applicationId + "-v" + versionCode + "(" + versionName + ")")
 
     }
@@ -27,9 +26,6 @@ android {
             //proguardFile 'proguard-google-play-services.pro'
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             //signingConfig signingConfigs.KEY
-        }
-        debug {
-            debuggable true
         }
     }
 

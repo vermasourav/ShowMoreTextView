@@ -1,7 +1,6 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
-    id 'maven-publish'
 }
 
 //apply from: rootProject.file('./app/signing.gradle')
@@ -16,10 +15,7 @@ android {
         targetSdk rootProject.target_sdk_version
         versionCode rootProject.version_code
         versionName rootProject.version_name
-
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        multiDexEnabled true
-        vectorDrawables.useSupportLibrary = true
         //setProperty("archivesBaseName", applicationId + "-v" + versionCode + "(" + versionName + ")")
     }
 
@@ -37,10 +33,6 @@ android {
             renderscriptDebuggable false
             zipAlignEnabled true
             //signingConfig signingConfigs.KEY*/
-        }
-        debug {
-            debuggable true
-            minifyEnabled false
         }
     }
 
@@ -69,7 +61,7 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
-    implementation fileTree(dir: 'libs', include: ['*.aar'])
+   // implementation fileTree(dir: 'libs', include: ['*.aar'])
     implementation project(':ShowMoreTextView')
     //implementation 'com.github.vermasourav:ShowMoreTextView:1.0.7'
     //implementation files('./libs/ShowMoreTextView.aar')
