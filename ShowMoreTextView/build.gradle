@@ -55,7 +55,7 @@ dependencies {
 
 
 
-    task verma_deleteArr(type: Delete) {
+  /*  task verma_deleteArr(type: Delete) {
         delete 'output/*.*'
         delete 'output/ShowMoreTextView.arr'
         delete 'output/ShowMoreTextView-release.arr'
@@ -75,7 +75,7 @@ dependencies {
         include('ShowMoreTextView.aar')
     }
 
-   // verma_addToProject.dependsOn(clean, verma_createArr)
-    //verma_createArr.dependsOn(verma_deleteArr, build)
+   verma_addToProject.dependsOn(clean, verma_createArr)
+    verma_createArr.dependsOn(verma_deleteArr, build)*/
 
 }
