@@ -2,11 +2,8 @@
 Show more Text View
 
 ================================
-
 # Setup
-
 Add it to your build.gradle with:
-
 ```
 allprojects {
     repositories {
@@ -15,7 +12,6 @@ allprojects {
 }
 ```
 and In your Gradle dependencies add:
-
 ```
 dependencies {
     implementation "com.github.vermasourav:ShowMoreTextView:1.0.11"
@@ -44,8 +40,8 @@ dependencies {
     app:show_more_max_line="300"
     app:show_more_text_length_type="TYPE_CHARACTER"
     tools:text="@string/more_text" />
+    
 ```
-
 
 # Or in code:
 
@@ -68,4 +64,8 @@ app:show_more_linkify   boolean true
 app:show_more_max_line  Integer MAX_CHARACTER (100)
 app:show_more_text_length_type  show_more_text_length_type TYPE_CHARACTER (1)
 ```
+
+|          col 1           |   col 2    |
+|:------------------------:|:-----------:|
+| <img src="" width="250"> | <img src="" width="250"> |
 

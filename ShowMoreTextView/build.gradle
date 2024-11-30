@@ -72,6 +72,6 @@ dependencies {
     }
 
    verma_addToProject.dependsOn(clean, verma_createArr)
-    verma_createArr.dependsOn(verma_deleteArr, build)*/
+   verma_createArr.dependsOn(verma_deleteArr, build)*/
 
 }
