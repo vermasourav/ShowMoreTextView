@@ -65,7 +65,7 @@ app:show_more_max_line  Integer MAX_CHARACTER (100)
 app:show_more_text_length_type  show_more_text_length_type TYPE_CHARACTER (1)
 ```
 
-|          col 1           |   col 2    |
-|:------------------------:|:-----------:|
-| <img src="" width="250"> | <img src="" width="250"> |
+|                 col 1                  |   col 2    |
+|:--------------------------------------:|:-----------:|
+| <img src="./Scheenshort/Screenshot_20241130_120635.png" width="250"> | <img src="" width="250"> |
 
